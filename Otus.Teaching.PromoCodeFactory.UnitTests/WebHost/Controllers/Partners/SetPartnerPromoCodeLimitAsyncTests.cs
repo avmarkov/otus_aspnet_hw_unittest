@@ -57,7 +57,6 @@ namespace Otus.Teaching.PromoCodeFactory.UnitTests.WebHost.Controllers.Partners
         [Fact]
         public async Task SetPartnerPromoCodeLimitAsync_PartnerIsNotFound_ReturnsNotFound()
         {
-
             // Arrange
             var partnerId = Guid.NewGuid();
             Partner partner = null;
